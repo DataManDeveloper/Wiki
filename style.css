@@ -1,0 +1,90 @@
+/* Center the content using Bootstrap container class */
+main {
+  padding: 5px;
+}
+
+
+.event-image {
+  max-width: 100%; /* Make the image responsive to its container */
+  height: auto;
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.review {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Header banner styling using Bootstrap classes */
+header {
+  background-color: #343a40; /* Bootstrap dark background color */
+  color: #ffffff; /* White text color */
+  padding: 1px;
+  text-align: center;
+}
+
+.blog_header{
+  background-color: #537d90;
+}
+
+#textInput {
+  width: 350px; /* You can adjust the width */
+  height: 40px; /* You can adjust the height */
+}
+
+#textInputResources {
+  width: 500px; /* You can adjust the width */
+  height: 80px; /* You can adjust the height */
+}
+
+.RedLink {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.RedLink:hover, .RedLink:active {
+  color: white;
+  text-decoration: none;
+  background-color: darkred;
+}
+
+
+/* Add separating lines between sections using Bootstrap hr class */
+section {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* Footer styling using Bootstrap classes */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Override Bootstrap styling for the site title */
+h1 {
+  color: #ffffff;
+}
+
+/* Responsive utility classes for small screens */
+@media (max-width: 576px) {
+  main {
+      padding: 1px;
+  }
+}
+
+.video-container {
+  border: 1px solid darkslategrey; /* Border color */
+  border-radius: 8px; /* Optional: Add border radius for a rounded look */
+  overflow: hidden; /* Hide overflow for rounded corners */
+  padding: 5px;
+}
